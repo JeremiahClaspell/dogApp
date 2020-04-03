@@ -1,0 +1,41 @@
+h1 {
+    text-align: center; 
+}
+
+ form {
+     border: 3px solid black; 
+     padding: 20px; 
+ }
+
+.hidden {
+    display: none; 
+}
+
+h3 {
+    text-align: center; 
+}
+
+section{
+    max-width: 100%; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0px; 
+    max-width: 100%; 
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+
+}
+
+li {
+    display: inline-block; 
+    margin-bottom: 15px; 
+}
+
+.dogPic {
+    width: 300px; 
+    height: 300px;
+}
