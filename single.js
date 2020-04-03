@@ -9,7 +9,8 @@ function generateDogs (){
             if(responceJson.status ==="error"){
                 alert(responceJson.message); 
             } else {
-            $('ul').append(`<li><img src="${responceJson.message}"></li>`); 
+            $('ul').append(`<li><img src="${responceJson.message}"
+            ></li>`); 
             $('section').removeClass('hidden');  
             }
         })
